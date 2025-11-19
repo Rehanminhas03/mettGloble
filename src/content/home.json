@@ -1,0 +1,157 @@
+{
+  "hero": {
+    "headline": "Your Global Partner for eCommerce, Technology, and Secure Digital Solutions",
+    "subheading": "End-to-end services for Amazon & eCommerce, Web Development, Cybersecurity, AI Automation, Procurement, Supply Chain, and Business Operations—powered by innovation and delivered with excellence.",
+    "cta": {
+      "primary": {
+        "text": "Get a Free Consultation",
+        "href": "/contact"
+      },
+      "secondary": {
+        "text": "Explore Our Services",
+        "href": "/services"
+      }
+    }
+  },
+  "services": [
+    {
+      "id": "amazon-ecommerce",
+      "title": "Amazon & eCommerce",
+      "description": "Multi-channel eCommerce management and growth",
+      "icon": "ShoppingCart",
+      "href": "/services/amazon-ecommerce"
+    },
+    {
+      "id": "web-development",
+      "title": "Web Development",
+      "description": "Modern, scalable, high-performance websites and apps",
+      "icon": "Code",
+      "href": "/services/web-development"
+    },
+    {
+      "id": "cybersecurity",
+      "title": "Cybersecurity Services",
+      "description": "Protect your business with enterprise-grade security",
+      "icon": "Shield",
+      "href": "/services/cybersecurity"
+    },
+    {
+      "id": "procurement",
+      "title": "Procurement & Manufacturing",
+      "description": "Global sourcing from Pakistan's manufacturing hubs",
+      "icon": "Package",
+      "href": "/services/procurement"
+    },
+    {
+      "id": "supply-chain",
+      "title": "Supply Chain & Logistics",
+      "description": "End-to-end inventory, warehouse, and shipping solutions",
+      "icon": "Truck",
+      "href": "/services/supply-chain"
+    },
+    {
+      "id": "leadgen",
+      "title": "B2B Lead Generation & Sales",
+      "description": "Data-driven pipelines and CRM management",
+      "icon": "Target",
+      "href": "/services/leadgen"
+    },
+    {
+      "id": "branding",
+      "title": "Branding & Marketing",
+      "description": "Creative design, social media, and AI-powered campaigns",
+      "icon": "Palette",
+      "href": "/services/branding"
+    },
+    {
+      "id": "ai-automation",
+      "title": "AI & Automation Solutions",
+      "description": "Intelligent workflows, chatbots, and predictive analytics",
+      "icon": "Bot",
+      "href": "/services/ai-automation"
+    },
+    {
+      "id": "customer-support",
+      "title": "Customer Support",
+      "description": "24/7 multi-channel support for retail and eCommerce",
+      "icon": "Headphones",
+      "href": "/services/customer-support"
+    },
+    {
+      "id": "it-helpdesk",
+      "title": "IT Help Desk & Technical Support",
+      "description": "Remote troubleshooting and IT management",
+      "icon": "Server",
+      "href": "/services/it-helpdesk"
+    },
+    {
+      "id": "data-entry",
+      "title": "Data Entry & Virtual Assistants",
+      "description": "Administrative excellence and eCommerce support",
+      "icon": "FileText",
+      "href": "/services/data-entry"
+    }
+  ],
+  "whyChooseUs": {
+    "title": "Why Choose Us",
+    "reasons": [
+      {
+        "title": "Global Network",
+        "description": "Operating from Pakistan with international reach",
+        "icon": "Globe"
+      },
+      {
+        "title": "Multi-Channel Expertise",
+        "description": "Amazon, Walmart, Shopify, eBay, and beyond",
+        "icon": "Layers"
+      },
+      {
+        "title": "Data & AI Driven",
+        "description": "Advanced analytics and automation at the core",
+        "icon": "TrendingUp"
+      },
+      {
+        "title": "End-to-End Solutions",
+        "description": "From strategy to execution, we handle it all",
+        "icon": "CheckCircle"
+      },
+      {
+        "title": "Proven Results",
+        "description": "Trusted by retail brands, manufacturers, and tech startups",
+        "icon": "Award"
+      }
+    ]
+  },
+  "industries": {
+    "title": "Industries We Serve",
+    "list": [
+      "Retail & eCommerce",
+      "Manufacturing & Textiles",
+      "Wholesale & Distribution",
+      "Technology & SaaS",
+      "Startups & Emerging Brands"
+    ]
+  },
+  "caseStudies": {
+    "title": "Case Studies & Success Stories",
+    "description": "Discover how we've helped businesses scale on Amazon, streamline supply chains, build secure digital platforms, and automate operations with AI.",
+    "cta": {
+      "text": "View All Case Studies",
+      "href": "/case-studies"
+    }
+  },
+  "finalCta": {
+    "title": "Ready to Transform Your Business?",
+    "description": "Let's build something exceptional together.",
+    "buttons": {
+      "primary": {
+        "text": "Schedule a Consultation",
+        "href": "/contact"
+      },
+      "secondary": {
+        "text": "Contact Us Today",
+        "href": "/contact"
+      }
+    }
+  }
+}

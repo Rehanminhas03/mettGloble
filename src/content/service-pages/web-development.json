@@ -1,0 +1,112 @@
+{
+  "slug": "web-development",
+  "hero": {
+    "headline": "Professional Web Development Services",
+    "subheading": "Building fast, scalable, and modern digital solutions that help businesses grow with confidence.",
+    "cta": {
+      "primary": { "text": "Get a Quote", "href": "/contact" },
+      "secondary": { "text": "View Portfolio", "href": "/case-studies" }
+    }
+  },
+  "introduction": "We build custom websites and web applications designed for performance, responsiveness, and business growth. Whether you need a corporate website, eCommerce store, SaaS platform, or admin dashboard, we deliver solutions using modern technologies like Next.js, React, and Node.js.",
+  "services": [
+    {
+      "title": "Full Website Development",
+      "description": "Custom websites designed for performance, responsiveness, and business growth.",
+      "features": [
+        "Custom UI/UX design",
+        "Modern, clean layouts",
+        "Speed optimization",
+        "Mobile-first approach",
+        "SEO-friendly structure"
+      ]
+    },
+    {
+      "title": "Next.js Web Application Development",
+      "description": "High-performance, SEO-optimized applications tailored for business-scale use.",
+      "features": [
+        "Server-side rendering (SSR)",
+        "Fast page loads",
+        "Built-in SEO optimization",
+        "Scalable architecture"
+      ]
+    },
+    {
+      "title": "React Web Application Development",
+      "description": "Interactive, component-based applications with smooth UI/UX and clean architecture.",
+      "features": [
+        "Component reusability",
+        "Fast, dynamic interfaces",
+        "Rich ecosystem",
+        "Easy maintenance"
+      ]
+    },
+    {
+      "title": "E-commerce Development",
+      "description": "Complete online store solutions using Shopify, WooCommerce, or custom Next.js builds.",
+      "features": [
+        "Secure payment gateways (Stripe, PayPal)",
+        "Product & inventory management",
+        "Order tracking systems",
+        "Custom admin panels",
+        "Multi-currency support"
+      ]
+    },
+    {
+      "title": "Landing Page Development",
+      "description": "High-converting landing pages optimized for marketing campaigns and product launches.",
+      "features": [
+        "Fast loading times",
+        "Higher conversion rates",
+        "Clean, modern design",
+        "Mobile-optimized",
+        "A/B testing support"
+      ]
+    },
+    {
+      "title": "Admin Dashboards",
+      "description": "Custom dashboards and internal tools with analytics, reporting, and role-based access.",
+      "features": [
+        "Data visualization (charts, graphs)",
+        "User role management",
+        "API integrations",
+        "Real-time updates",
+        "Reporting tools"
+      ]
+    }
+  ],
+  "whyChooseUs": {
+    "title": "Why Choose Our Web Development Services",
+    "reasons": [
+      "Modern technologies (Next.js, React, Node.js)",
+      "Clean, scalable, maintainable code",
+      "Fast delivery with high-quality standards",
+      "Mobile-first, responsive design",
+      "Long-term support and maintenance",
+      "SEO-optimized from the ground up"
+    ]
+  },
+  "technologies": {
+    "title": "Technologies We Use",
+    "list": [
+      "Next.js",
+      "React",
+      "TypeScript",
+      "Node.js",
+      "Tailwind CSS",
+      "MongoDB",
+      "PostgreSQL",
+      "Firebase",
+      "Vercel",
+      "AWS"
+    ]
+  },
+  "cta": {
+    "title": "Ready to Build Something Great?",
+    "description": "Let's create a fast, modern, and scalable digital experience for your business.",
+    "buttons": {
+      "primary": { "text": "Get Started", "href": "/contact" },
+      "secondary": { "text": "Contact Us", "href": "/contact" }
+    }
+  }
+}

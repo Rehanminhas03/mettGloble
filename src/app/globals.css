@@ -1,26 +1,141 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
+@layer base {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    /* Light theme colors */
+    --background: 250 250 250;
+    --foreground: 10 10 10;
+    --card: 255 255 255;
+    --card-foreground: 10 10 10;
+    --primary: 37 99 235;
+    --primary-foreground: 255 255 255;
+    --secondary: 244 244 245;
+    --secondary-foreground: 10 10 10;
+    --muted: 244 244 245;
+    --muted-foreground: 113 113 122;
+    --accent: 244 244 245;
+    --accent-foreground: 10 10 10;
+    --border: 228 228 231;
+    --input: 228 228 231;
+    --ring: 37 99 235;
+  }
+
+  .dark {
+    /* Professional dark theme colors */
+    --background: 10 10 10;
+    --foreground: 250 250 250;
+    --card: 24 24 27;
+    --card-foreground: 250 250 250;
+    --primary: 59 130 246;
+    --primary-foreground: 250 250 250;
+    --secondary: 39 39 42;
+    --secondary-foreground: 250 250 250;
+    --muted: 39 39 42;
+    --muted-foreground: 161 161 170;
+    --accent: 39 39 42;
+    --accent-foreground: 250 250 250;
+    --border: 39 39 42;
+    --input: 39 39 42;
+    --ring: 59 130 246;
+  }
+
+  * {
+    border-color: rgb(var(--border));
+  }
+
+  body {
+    background-color: rgb(var(--background));
+    color: rgb(var(--foreground));
+    transition: background-color 0.3s ease, color 0.3s ease;
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+@layer utilities {
+  .container-custom {
+    max-width: 80rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  @media (min-width: 640px) {
+    .container-custom {
+      padding-left: 1.5rem;
+      padding-right: 1.5rem;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .container-custom {
+      padding-left: 2rem;
+      padding-right: 2rem;
+    }
+  }
+
+  .section-padding {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+
+  @media (min-width: 768px) {
+    .section-padding {
+      padding-top: 6rem;
+      padding-bottom: 6rem;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .section-padding {
+      padding-top: 8rem;
+      padding-bottom: 8rem;
+    }
+  }
+
+  .gradient-text {
+    background-image: linear-gradient(to right, rgb(37 99 235), rgb(16 185 129));
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+  }
+
+  .card-hover {
+    transition: all 0.3s;
+  }
+
+  .card-hover:hover {
+    box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+    transform: translateY(-0.25rem);
+  }
+
+  .dark .card-hover:hover {
+    box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.3), 0 8px 10px -6px rgb(0 0 0 / 0.3);
+  }
+
+  .gradient-bg-light {
+    background: linear-gradient(135deg, rgb(37 99 235) 0%, rgb(16 185 129) 100%);
+  }
+
+  .gradient-bg-dark {
+    background: linear-gradient(135deg, rgb(29 78 216) 0%, rgb(6 95 70) 100%);
+  }
+
+  .prose-dark {
+    color: rgb(228 228 231);
+  }
+
+  .prose-dark h1,
+  .prose-dark h2,
+  .prose-dark h3,
+  .prose-dark h4 {
+    color: rgb(250 250 250);
+  }
+
+  .prose-dark a {
+    color: rgb(96 165 250);
+  }
+
+  .prose-dark a:hover {
+    color: rgb(147 197 253);
+  }
 }

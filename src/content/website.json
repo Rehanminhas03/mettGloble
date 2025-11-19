@@ -1,0 +1,18 @@
+{
+  "name": "MettGlobal",
+  "logo": "/logo.png",
+  "favicon": "/favicon.ico",
+  "description": "Your global partner for eCommerce, AI, Web Dev, Cybersecurity, and more.",
+  "tagline": "Innovation Delivered with Excellence",
+  "contact": {
+    "email": "contact@mettglobal.com",
+    "phone": "+92 XXX XXXXXXX",
+    "whatsapp": "+92 XXX XXXXXXX",
+    "address": "Pakistan"
+  },
+  "social": {
+    "facebook": "https://facebook.com/mettglobal",
+    "instagram": "https://instagram.com/mettglobal",
+    "linkedin": "https://linkedin.com/company/mettglobal"
+  }
+}

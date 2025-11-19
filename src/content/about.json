@@ -1,0 +1,55 @@
+{
+  "hero": {
+    "title": "About Us",
+    "description": "Empowering businesses worldwide with innovative, reliable, and scalable solutions."
+  },
+  "vision": "To empower businesses worldwide with innovative, reliable, and scalable solutions that drive growth, efficiency, and digital transformation.",
+  "mission": "We deliver world-class eCommerce, technology, cybersecurity, procurement, and business operations services—bridging the gap between ambition and achievement for our clients across the globe.",
+  "story": "Founded with a vision to provide comprehensive business solutions, we started as a small team passionate about helping brands succeed on Amazon. Over time, we expanded into web development, cybersecurity, AI automation, procurement, and logistics—becoming a full-service partner for businesses looking to scale and innovate. Today, we operate from Pakistan, serving clients in the USA, Europe, Australia, and beyond. Our team combines local expertise with global standards, delivering results that matter.",
+  "team": [
+    {
+      "role": "Founder & CEO",
+      "description": "Visionary leader with 10+ years in eCommerce and operations"
+    },
+    {
+      "role": "Head of Technology",
+      "description": "Expert in web development, cybersecurity, and AI solutions"
+    },
+    {
+      "role": "Procurement Director",
+      "description": "Specialist in Pakistan's manufacturing and export sectors"
+    },
+    {
+      "role": "Operations Manager",
+      "description": "Drives logistics, supply chain, and customer support excellence"
+    }
+  ],
+  "values": [
+    {
+      "title": "Integrity",
+      "description": "Honest, transparent, and ethical in all we do"
+    },
+    {
+      "title": "Innovation",
+      "description": "Always exploring better solutions and technologies"
+    },
+    {
+      "title": "Results",
+      "description": "Focused on measurable outcomes and client success"
+    },
+    {
+      "title": "Partnership",
+      "description": "We grow when our clients grow"
+    }
+  ],
+  "whyDifferent": [
+    "Comprehensive Services – One partner for all your business needs",
+    "Technology-First – We leverage AI, automation, and modern tools",
+    "Proven Track Record – Real results, not just promises",
+    "Global + Local – International expertise with regional advantages"
+  ],
+  "footprint": {
+    "headquarters": "Pakistan",
+    "servingClients": "USA, UK, Europe, Australia, Middle East"
+  }
+}

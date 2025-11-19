@@ -1,0 +1,56 @@
+{
+  "slug": "amazon-ecommerce",
+  "hero": {
+    "headline": "Amazon & Multi-Channel eCommerce Experts",
+    "subheading": "We help brands launch, grow, and dominate on Amazon, Walmart, eBay, Shopify, and beyond.",
+    "cta": {
+      "primary": { "text": "Get a Free Audit", "href": "/contact" },
+      "secondary": { "text": "Talk to an Expert", "href": "/contact" }
+    }
+  },
+  "introduction": "Whether you're launching your first product or scaling an established brand, we provide end-to-end eCommerce services across all major platforms. From product hunting and procurement to PPC management and customer support, we handle every aspect of your eCommerce journey.",
+  "services": [
+    {
+      "title": "Product Hunting & Market Research",
+      "description": "Data-driven product research to identify profitable opportunities."
+    },
+    {
+      "title": "Amazon Account Management",
+      "description": "Full account handling including listings, compliance, and performance monitoring."
+    },
+    {
+      "title": "PPC & Advertising",
+      "description": "Expert campaign management for Sponsored Products, Brands, and Display Ads."
+    },
+    {
+      "title": "FBA Inventory Management",
+      "description": "Inventory tracking, restocking, and forecasting."
+    },
+    {
+      "title": "Listing Optimization",
+      "description": "High-quality images and SEO-optimized listings."
+    },
+    {
+      "title": "Multi-Channel Management",
+      "description": "Walmart, eBay, Shopify, and other platforms managed seamlessly."
+    }
+  ],
+  "whyChooseUs": {
+    "title": "Why Choose Our eCommerce Services",
+    "reasons": [
+      "Multi-channel expertise across all major platforms",
+      "Data-driven strategies for maximum ROI",
+      "Full-service support from launch to scaling",
+      "Transparent reporting and communication",
+      "Proven track record with successful brands"
+    ]
+  },
+  "cta": {
+    "title": "Let's Talk eCommerce Growth",
+    "description": "Ready to scale your eCommerce business?",
+    "buttons": {
+      "primary": { "text": "Request a Strategy Session", "href": "/contact" },
+      "secondary": { "text": "View Our Portfolio", "href": "/case-studies" }
+    }
+  }
+}

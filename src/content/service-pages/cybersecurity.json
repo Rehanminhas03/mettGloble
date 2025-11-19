@@ -1,0 +1,85 @@
+{
+  "slug": "cybersecurity",
+  "hero": {
+    "headline": "Enterprise-Grade Cybersecurity Solutions",
+    "subheading": "Protect your business with penetration testing, vulnerability assessments, secure architecture, and 24/7 monitoring.",
+    "cta": {
+      "primary": { "text": "Request a Security Audit", "href": "/contact" },
+      "secondary": { "text": "Talk to a Security Expert", "href": "/contact" }
+    }
+  },
+  "introduction": "In today's digital landscape, cybersecurity is not optional—it's essential. We provide comprehensive security services designed to identify vulnerabilities, protect critical systems, and respond to threats before they become breaches.",
+  "services": [
+    {
+      "title": "Penetration Testing",
+      "description": "Simulated attacks to identify vulnerabilities in your web applications, APIs, and networks.",
+      "features": [
+        "Web Application Penetration Testing",
+        "API Security Testing",
+        "Network Penetration Testing",
+        "Cloud Infrastructure Testing"
+      ]
+    },
+    {
+      "title": "Vulnerability Assessments",
+      "description": "Comprehensive scanning and analysis to identify security weaknesses.",
+      "features": [
+        "Automated vulnerability scanning",
+        "Manual validation",
+        "Risk prioritization",
+        "Compliance checks (OWASP, NIST)"
+      ]
+    },
+    {
+      "title": "SOC-as-a-Service",
+      "description": "24/7 Security Operations Center monitoring and incident response.",
+      "features": [
+        "Real-time threat monitoring",
+        "Alert triage and investigation",
+        "Incident response coordination",
+        "Monthly security reports"
+      ]
+    },
+    {
+      "title": "Secure Architecture Design",
+      "description": "Building security into your infrastructure from the ground up.",
+      "features": [
+        "Cloud security architecture",
+        "Zero-trust models",
+        "Secure API design",
+        "Identity and access management (IAM)"
+      ]
+    }
+  ],
+  "whyChooseUs": {
+    "title": "Why Choose Our Cybersecurity Services",
+    "reasons": [
+      "Certified security professionals with real-world experience",
+      "Comprehensive testing and continuous monitoring",
+      "Compliance-ready reports and documentation",
+      "Proactive threat detection and response",
+      "Tailored solutions for your industry and infrastructure"
+    ]
+  },
+  "technologies": {
+    "title": "Tools & Technologies",
+    "list": [
+      "Burp Suite",
+      "Metasploit",
+      "Splunk",
+      "ELK Stack",
+      "AWS GuardDuty",
+      "Azure Security Center",
+      "Nmap",
+      "Wireshark"
+    ]
+  },
+  "cta": {
+    "title": "Secure Your Business Today",
+    "description": "Don't wait for a breach. Protect your business now.",
+    "buttons": {
+      "primary": { "text": "Schedule a Security Consultation", "href": "/contact" },
+      "secondary": { "text": "Request a Penetration Test", "href": "/contact" }
+    }
+  }
+}

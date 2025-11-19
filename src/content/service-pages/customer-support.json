@@ -1,0 +1,29 @@
+{
+  "slug": "customer-support",
+  "hero": {
+    "headline": "Service Page",
+    "subheading": "Professional services tailored to your needs.",
+    "cta": {
+      "primary": { "text": "Get Started", "href": "/contact" },
+      "secondary": { "text": "Learn More", "href": "/contact" }
+    }
+  },
+  "introduction": "We provide comprehensive solutions to help your business succeed.",
+  "services": [],
+  "whyChooseUs": {
+    "title": "Why Choose Us",
+    "reasons": [
+      "Expert team with proven results",
+      "Tailored solutions for your business",
+      "Transparent communication",
+      "Dedicated support"
+    ]
+  },
+  "cta": {
+    "title": "Ready to Get Started?",
+    "description": "Contact us today to learn more.",
+    "buttons": {
+      "primary": { "text": "Contact Us", "href": "/contact" }
+    }
+  }
+}

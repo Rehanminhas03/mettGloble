@@ -1,0 +1,23 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(\"src\\content\\website.json\")",
+      "Bash(\"src\\content\\home.json\")",
+      "Bash(\"src\\content\\about.json\")",
+      "Bash(\"src\\content\\services.json\")",
+      "Bash(\"src\\content\\footer.json\")",
+      "Bash(\"src\\content\\header.json\")",
+      "Bash(for slug in amazon-ecommerce web-development cybersecurity procurement supply-chain leadgen branding ai-automation customer-support it-helpdesk data-entry)",
+      "Bash(do if [ -f \"$slug.json\" ])",
+      "Bash(then echo \"✓ $slug.json exists\")",
+      "Bash(else echo \"✗ $slug.json MISSING\")",
+      "Bash(fi)",
+      "Bash(done)",
+      "Bash(npm run build:*)",
+      "Bash(npm uninstall:*)",
+      "Bash(npm install:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "intro": "From end-to-end eCommerce operations to cutting-edge web development, cybersecurity, AI automation, and global procurement—we deliver holistic business solutions designed for growth, efficiency, and innovation.",
+  "departments": [
+    {
+      "slug": "amazon-ecommerce",
+      "title": "Amazon & eCommerce",
+      "excerpt": "Multi-channel eCommerce management, PPC, branding, and operations"
+    },
+    {
+      "slug": "web-development",
+      "title": "Web Development",
+      "excerpt": "Modern, scalable websites and applications built with Next.js, React, and Node.js"
+    },
+    {
+      "slug": "cybersecurity",
+      "title": "Cybersecurity Services",
+      "excerpt": "Penetration testing, vulnerability assessments, SOC services, and secure architecture"
+    },
+    {
+      "slug": "procurement",
+      "title": "Procurement & Quality Assurance",
+      "excerpt": "Sourcing, manufacturing, and quality control from Pakistan's top production hubs"
+    },
+    {
+      "slug": "supply-chain",
+      "title": "Supply Chain Management & Logistics",
+      "excerpt": "Inventory, warehousing, 3PL partnerships, and international freight"
+    },
+    {
+      "slug": "leadgen",
+      "title": "B2B Lead Generation & Sales",
+      "excerpt": "CRM setup, pipeline management, and data-driven outreach"
+    },
+    {
+      "slug": "branding",
+      "title": "Branding & Marketing",
+      "excerpt": "Logo design, social media, content creation, and AI-powered campaigns"
+    },
+    {
+      "slug": "ai-automation",
+      "title": "AI & Automation Solutions",
+      "excerpt": "Chatbots, workflow automation, predictive analytics, and custom dashboards"
+    },
+    {
+      "slug": "customer-support",
+      "title": "Customer Support",
+      "excerpt": "24/7 multi-channel support for eCommerce and retail operations"
+    },
+    {
+      "slug": "it-helpdesk",
+      "title": "IT Help Desk & Technical Support",
+      "excerpt": "Remote troubleshooting, software installation, and network management"
+    },
+    {
+      "slug": "data-entry",
+      "title": "Data Entry & Virtual Assistant Services",
+      "excerpt": "Admin support, product listing, spreadsheet management, and virtual assistance"
+    }
+  ],
+  "cta": {
+    "text": "Explore Services",
+    "href": "/contact"
+  }
+}
