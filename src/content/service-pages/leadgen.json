@@ -1,29 +1,168 @@
 {
   "slug": "leadgen",
   "hero": {
-    "headline": "Service Page",
-    "subheading": "Professional services tailored to your needs.",
+    "headline": "B2B Lead Generation & Sales Development Services",
+    "subheading": "Fill your pipeline with qualified leads and accelerate revenue growth with data-driven B2B lead generation strategies and multi-channel outreach.",
     "cta": {
-      "primary": { "text": "Get Started", "href": "/contact" },
-      "secondary": { "text": "Learn More", "href": "/contact" }
+      "primary": { "text": "Start Generating Leads", "href": "/contact" },
+      "secondary": { "text": "View Results", "href": "/case-studies" }
     }
   },
-  "introduction": "We provide comprehensive solutions to help your business succeed.",
-  "services": [],
+  "introduction": "Generate high-quality B2B leads consistently with our proven lead generation system. We combine strategic outbound prospecting, content marketing, and marketing automation to fill your sales pipeline with qualified opportunities. From list building to appointment setting, we handle the entire lead generation process so your sales team can focus on closing deals.",
+  "services": [
+    {
+      "title": "Outbound Lead Generation",
+      "description": "Proactive outreach to your ideal customers through LinkedIn, email, and phone to generate qualified sales opportunities.",
+      "features": [
+        "Ideal Customer Profile (ICP) development",
+        "Target account identification and research",
+        "LinkedIn prospecting and outreach",
+        "Cold email campaigns and sequences",
+        "Phone-based outreach and SDR services",
+        "Multi-touch, multi-channel campaigns",
+        "CRM integration and lead tracking",
+        "Performance reporting and optimization"
+      ]
+    },
+    {
+      "title": "Inbound Lead Generation",
+      "description": "Attract and convert high-intent prospects with SEO, content marketing, and conversion-optimized landing pages.",
+      "features": [
+        "SEO strategy and content optimization",
+        "Lead magnet creation (ebooks, whitepapers, webinars)",
+        "Landing page design and optimization",
+        "Lead capture form optimization",
+        "Marketing automation setup",
+        "Lead nurturing email sequences",
+        "Conversion rate optimization (CRO)",
+        "Lead scoring and qualification"
+      ]
+    },
+    {
+      "title": "LinkedIn Lead Generation",
+      "description": "Leverage LinkedIn's professional network to connect with decision-makers and generate qualified B2B leads.",
+      "features": [
+        "LinkedIn profile optimization",
+        "Connection request campaigns",
+        "Personalized messaging sequences",
+        "LinkedIn InMail campaigns",
+        "Content posting and engagement",
+        "LinkedIn Sales Navigator utilization",
+        "Relationship building and nurturing",
+        "Analytics and performance tracking"
+      ]
+    },
+    {
+      "title": "Email Lead Generation",
+      "description": "Build and execute targeted email campaigns that engage prospects and drive qualified leads to your sales team.",
+      "features": [
+        "Email list building and verification",
+        "Personalized email copywriting",
+        "A/B testing and optimization",
+        "Automated follow-up sequences",
+        "Deliverability monitoring",
+        "Response handling and qualification",
+        "CRM synchronization",
+        "Campaign analytics and reporting"
+      ]
+    },
+    {
+      "title": "Appointment Setting",
+      "description": "Convert qualified leads into sales-ready meetings with professional appointment setting services.",
+      "features": [
+        "Lead qualification and vetting",
+        "Calendar coordination and scheduling",
+        "Meeting confirmation and reminders",
+        "Pre-meeting research and briefing",
+        "No-show reduction strategies",
+        "Sales team coordination",
+        "Meeting notes and CRM updates",
+        "Performance tracking and reporting"
+      ]
+    },
+    {
+      "title": "Database Building & List Management",
+      "description": "Build and maintain accurate, up-to-date prospect databases targeted to your ideal customer profile.",
+      "features": [
+        "Custom list building and research",
+        "Contact data verification",
+        "Company and contact enrichment",
+        "Database segmentation",
+        "List cleaning and maintenance",
+        "GDPR and compliance management",
+        "CRM data import and management",
+        "Regular updates and refresh"
+      ]
+    },
+    {
+      "title": "Lead Qualification & Scoring",
+      "description": "Implement systematic lead qualification processes to ensure your sales team focuses on the best opportunities.",
+      "features": [
+        "Lead scoring model development",
+        "BANT/MEDDIC qualification frameworks",
+        "Automated lead scoring",
+        "MQL to SQL conversion optimization",
+        "Lead routing and assignment",
+        "Quality assurance and auditing",
+        "Sales and marketing alignment",
+        "Conversion rate optimization"
+      ]
+    },
+    {
+      "title": "Content Syndication & Distribution",
+      "description": "Amplify your content reach and generate leads through strategic content distribution and syndication.",
+      "features": [
+        "Content distribution strategy",
+        "Syndication partner network",
+        "Gated content campaigns",
+        "Lead generation from content",
+        "Multi-channel content promotion",
+        "Influencer and partnership outreach",
+        "Content performance tracking",
+        "ROI measurement and optimization"
+      ]
+    }
+  ],
   "whyChooseUs": {
-    "title": "Why Choose Us",
+    "title": "Why Choose Our Lead Generation Services",
     "reasons": [
-      "Expert team with proven results",
-      "Tailored solutions for your business",
-      "Transparent communication",
-      "Dedicated support"
+      "Proven results: 500+ qualified leads delivered in 90 days on average",
+      "Multi-channel approach for maximum reach and engagement",
+      "Experienced SDRs with B2B sales expertise",
+      "Transparent reporting with real-time dashboard access",
+      "Pay for qualified leads, not just activity",
+      "Industry-specific expertise across SaaS, fintech, manufacturing, and more",
+      "Advanced tools: LinkedIn Sales Navigator, Apollo, ZoomInfo, HubSpot",
+      "60% cost savings vs. hiring in-house SDRs"
+    ]
+  },
+  "technologies": {
+    "title": "Lead Generation Tools & Platforms",
+    "list": [
+      "LinkedIn Sales Navigator",
+      "Apollo.io",
+      "ZoomInfo",
+      "Hunter.io",
+      "Lemlist",
+      "Instantly.ai",
+      "HubSpot CRM",
+      "Salesforce",
+      "Outreach.io",
+      "SalesLoft",
+      "Calendly",
+      "Clearbit",
+      "Lusha",
+      "PhantomBuster",
+      "Clay",
+      "Woodpecker"
     ]
   },
   "cta": {
-    "title": "Ready to Get Started?",
-    "description": "Contact us today to learn more.",
+    "title": "Ready to Fill Your Pipeline?",
+    "description": "Let's build a custom lead generation strategy that delivers qualified opportunities consistently. Get a free pipeline audit and growth plan.",
     "buttons": {
-      "primary": { "text": "Contact Us", "href": "/contact" }
+      "primary": { "text": "Get Free Pipeline Audit", "href": "/contact" },
+      "secondary": { "text": "See Lead Gen Results", "href": "/case-studies" }
     }
   }
 }

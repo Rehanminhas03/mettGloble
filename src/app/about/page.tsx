@@ -21,6 +21,8 @@ export const metadata: Metadata = generatePageMetadata({
 });
 
 export default function AboutPage() {
+  const gradients = ["gradient-primary", "gradient-secondary", "gradient-accent"];
+
   return (
     <main>
       <PageHeader
@@ -29,57 +31,61 @@ export default function AboutPage() {
       />
 
       {/* Vision & Mission */}
-      <section className="section-padding bg-white">
+      <section className="section-padding bg-zinc-950">
         <div className="container-custom">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
-            <div>
-              <h2 className="text-2xl font-bold text-zinc-900 mb-4">Our Vision</h2>
-              <p className="text-lg text-zinc-600 leading-relaxed">{aboutContent.vision}</p>
+            <div className="glass rounded-2xl p-8">
+              <h2 className="text-2xl font-bold text-white mb-4 gradient-text-primary">Our Vision</h2>
+              <p className="text-lg text-zinc-300 leading-relaxed">{aboutContent.vision}</p>
             </div>
-            <div>
-              <h2 className="text-2xl font-bold text-zinc-900 mb-4">Our Mission</h2>
-              <p className="text-lg text-zinc-600 leading-relaxed">{aboutContent.mission}</p>
+            <div className="glass rounded-2xl p-8">
+              <h2 className="text-2xl font-bold text-white mb-4 gradient-text-secondary">Our Mission</h2>
+              <p className="text-lg text-zinc-300 leading-relaxed">{aboutContent.mission}</p>
             </div>
           </div>
         </div>
       </section>
 
       {/* Our Story */}
-      <section className="section-padding bg-zinc-50">
+      <section className="section-padding bg-zinc-900">
         <div className="container-custom max-w-4xl">
           <SectionHeading title="Our Story" centered />
-          <p className="text-lg text-zinc-600 leading-relaxed">{aboutContent.story}</p>
+          <div className="glass rounded-2xl p-8">
+            <p className="text-lg text-zinc-300 leading-relaxed">{aboutContent.story}</p>
+          </div>
         </div>
       </section>
 
       {/* Our Team */}
-      <section className="section-padding bg-white">
+      <section className="section-padding bg-zinc-950">
         <div className="container-custom">
           <SectionHeading title="Our Team" centered />
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             {aboutContent.team.map((member, index) => (
-              <Card key={index} hover={false}>
-                <div className="mb-3 w-16 h-16 rounded-full bg-gradient-to-r from-blue-600 to-emerald-600" />
-                <h3 className="text-lg font-bold text-zinc-900 mb-2">{member.role}</h3>
-                <p className="text-sm text-zinc-600">{member.description}</p>
-              </Card>
+              <div key={index} className="glass rounded-2xl p-6 hover-glow transition-all duration-300">
+                <div className={`mb-4 w-16 h-16 rounded-full ${gradients[index % gradients.length]} flex items-center justify-center text-white font-bold text-2xl`}>
+                  {member.role.charAt(0)}
+                </div>
+                <h3 className="text-lg font-bold text-white mb-2">{member.role}</h3>
+                <p className="text-sm text-zinc-400">{member.description}</p>
+              </div>
             ))}
           </div>
         </div>
       </section>
 
       {/* Our Values */}
-      <section className="section-padding bg-zinc-50">
+      <section className="section-padding bg-zinc-900">
         <div className="container-custom">
           <SectionHeading title="Our Values" centered />
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             {aboutContent.values.map((value, index) => (
-              <div key={index} className="text-center">
-                <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-gradient-to-r from-blue-600 to-emerald-600 text-white mb-4">
+              <div key={index} className="text-center glass rounded-2xl p-6 hover-glow transition-all duration-300">
+                <div className={`inline-flex items-center justify-center w-16 h-16 rounded-full ${gradients[index % gradients.length]} text-white mb-4`}>
                   <span className="text-2xl font-bold">✓</span>
                 </div>
-                <h3 className="text-xl font-bold text-zinc-900 mb-2">{value.title}</h3>
-                <p className="text-zinc-600">{value.description}</p>
+                <h3 className="text-xl font-bold text-white mb-3">{value.title}</h3>
+                <p className="text-zinc-400">{value.description}</p>
               </div>
             ))}
           </div>
@@ -87,16 +93,16 @@ export default function AboutPage() {
       </section>
 
       {/* Why We Are Different */}
-      <section className="section-padding bg-white">
+      <section className="section-padding bg-zinc-950">
         <div className="container-custom">
           <SectionHeading title="Why We Are Different" centered />
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-3xl mx-auto">
             {aboutContent.whyDifferent.map((item, index) => (
-              <div key={index} className="flex items-start gap-3">
-                <span className="flex-shrink-0 w-6 h-6 rounded-full bg-emerald-100 text-emerald-600 flex items-center justify-center text-sm font-bold">
+              <div key={index} className="flex items-start gap-3 glass rounded-xl p-4">
+                <span className="flex-shrink-0 w-6 h-6 rounded-full bg-purple-500/20 text-purple-400 flex items-center justify-center text-sm font-bold">
                   ✓
                 </span>
-                <p className="text-zinc-700">{item}</p>
+                <p className="text-zinc-300">{item}</p>
               </div>
             ))}
           </div>
@@ -104,14 +110,17 @@ export default function AboutPage() {
       </section>
 
       {/* Global Footprint */}
-      <section className="section-padding bg-gradient-to-r from-blue-600 to-emerald-600">
-        <div className="container-custom text-center">
+      <section className="relative section-padding overflow-hidden">
+        <div className="absolute inset-0 bg-zinc-950"></div>
+        <div className="absolute inset-0 animated-gradient opacity-40"></div>
+
+        <div className="container-custom text-center relative z-10">
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">Our Global Footprint</h2>
-          <p className="text-xl text-blue-50 mb-4">
-            <strong>Headquarters:</strong> {aboutContent.footprint.headquarters}
+          <p className="text-xl text-zinc-300 mb-4">
+            <strong className="text-purple-400">Headquarters:</strong> {aboutContent.footprint.headquarters}
           </p>
-          <p className="text-xl text-blue-50 mb-10">
-            <strong>Serving Clients In:</strong> {aboutContent.footprint.servingClients}
+          <p className="text-xl text-zinc-300 mb-10">
+            <strong className="text-purple-400">Serving Clients In:</strong> {aboutContent.footprint.servingClients}
           </p>
           <Button href="/contact" variant="secondary" size="lg">
             Let's Build Your Success Story

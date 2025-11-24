@@ -1,112 +1,173 @@
 {
   "slug": "web-development",
   "hero": {
-    "headline": "Professional Web Development Services",
-    "subheading": "Building fast, scalable, and modern digital solutions that help businesses grow with confidence.",
+    "headline": "Custom Web Development & Digital Solutions",
+    "subheading": "Transform your digital presence with cutting-edge websites, web applications, and eCommerce platforms that drive results and engage customers.",
     "cta": {
-      "primary": { "text": "Get a Quote", "href": "/contact" },
-      "secondary": { "text": "View Portfolio", "href": "/case-studies" }
+      "primary": { "text": "Start Your Project", "href": "/contact" },
+      "secondary": { "text": "View Our Work", "href": "/case-studies" }
     }
   },
-  "introduction": "We build custom websites and web applications designed for performance, responsiveness, and business growth. Whether you need a corporate website, eCommerce store, SaaS platform, or admin dashboard, we deliver solutions using modern technologies like Next.js, React, and Node.js.",
+  "introduction": "We build modern, high-performance websites and web applications that combine stunning design with powerful functionality. From corporate websites to complex web applications, our development team delivers scalable solutions using the latest technologies including React, Next.js, Node.js, and more. Every project is optimized for speed, SEO, and conversions.",
   "services": [
     {
-      "title": "Full Website Development",
-      "description": "Custom websites designed for performance, responsiveness, and business growth.",
+      "title": "Corporate Website Development",
+      "description": "Professional business websites that establish credibility, showcase your services, and convert visitors into customers.",
       "features": [
-        "Custom UI/UX design",
-        "Modern, clean layouts",
-        "Speed optimization",
-        "Mobile-first approach",
-        "SEO-friendly structure"
+        "Custom responsive design tailored to your brand",
+        "SEO-optimized structure and content",
+        "Fast loading speeds (Core Web Vitals optimized)",
+        "Mobile-first development approach",
+        "Content Management System (CMS) integration",
+        "Contact forms, live chat, and lead capture",
+        "Analytics and tracking setup",
+        "Ongoing maintenance and security updates"
       ]
     },
     {
-      "title": "Next.js Web Application Development",
-      "description": "High-performance, SEO-optimized applications tailored for business-scale use.",
+      "title": "eCommerce Website Development",
+      "description": "High-converting online stores with secure payment processing, inventory management, and seamless user experience.",
       "features": [
-        "Server-side rendering (SSR)",
-        "Fast page loads",
-        "Built-in SEO optimization",
-        "Scalable architecture"
+        "Shopify, WooCommerce, or custom platform development",
+        "Shopping cart and checkout optimization",
+        "Payment gateway integration (Stripe, PayPal, etc.)",
+        "Product catalog and inventory management",
+        "Order tracking and customer accounts",
+        "Email marketing integration",
+        "Advanced search and filtering",
+        "Performance optimization for high traffic"
       ]
     },
     {
-      "title": "React Web Application Development",
-      "description": "Interactive, component-based applications with smooth UI/UX and clean architecture.",
+      "title": "Custom Web Application Development",
+      "description": "Scalable web applications built with modern frameworks to solve complex business challenges and automate processes.",
       "features": [
-        "Component reusability",
-        "Fast, dynamic interfaces",
-        "Rich ecosystem",
-        "Easy maintenance"
+        "React, Next.js, Vue.js frontend development",
+        "Node.js, Python, PHP backend development",
+        "RESTful API and GraphQL development",
+        "Database design and optimization (SQL, NoSQL)",
+        "Third-party API integrations",
+        "Real-time features (WebSockets, notifications)",
+        "Cloud deployment (AWS, Azure, Google Cloud)",
+        "CI/CD pipeline setup and DevOps"
       ]
     },
     {
-      "title": "E-commerce Development",
-      "description": "Complete online store solutions using Shopify, WooCommerce, or custom Next.js builds.",
+      "title": "Landing Page Design & Development",
+      "description": "High-converting landing pages optimized for campaigns, product launches, and lead generation.",
       "features": [
-        "Secure payment gateways (Stripe, PayPal)",
-        "Product & inventory management",
-        "Order tracking systems",
-        "Custom admin panels",
-        "Multi-currency support"
+        "Conversion-focused design and copywriting",
+        "A/B testing setup and optimization",
+        "Fast loading and mobile-optimized",
+        "CRM and email marketing integration",
+        "Analytics and conversion tracking",
+        "Lead capture forms and CTAs",
+        "Social proof and testimonials integration",
+        "Multi-variant testing capabilities"
       ]
     },
     {
-      "title": "Landing Page Development",
-      "description": "High-converting landing pages optimized for marketing campaigns and product launches.",
+      "title": "Progressive Web Apps (PWA)",
+      "description": "App-like experiences on the web with offline functionality, push notifications, and native device features.",
       "features": [
-        "Fast loading times",
-        "Higher conversion rates",
-        "Clean, modern design",
-        "Mobile-optimized",
-        "A/B testing support"
+        "Offline functionality and caching strategies",
+        "Push notifications for user engagement",
+        "Add to home screen capability",
+        "Native device feature access",
+        "Cross-platform compatibility",
+        "Performance optimization",
+        "Service worker implementation",
+        "App store submission support"
       ]
     },
     {
-      "title": "Admin Dashboards",
-      "description": "Custom dashboards and internal tools with analytics, reporting, and role-based access.",
+      "title": "Website Redesign & Modernization",
+      "description": "Breathe new life into outdated websites with modern design, improved performance, and enhanced functionality.",
       "features": [
-        "Data visualization (charts, graphs)",
-        "User role management",
-        "API integrations",
-        "Real-time updates",
-        "Reporting tools"
+        "Complete design overhaul and UI/UX improvement",
+        "Technology stack upgrade and migration",
+        "Performance optimization and speed improvements",
+        "Mobile responsiveness enhancement",
+        "SEO audit and optimization",
+        "Content migration and restructuring",
+        "Security hardening and updates",
+        "Minimal downtime during transition"
+      ]
+    },
+    {
+      "title": "Website Maintenance & Support",
+      "description": "Keep your website secure, up-to-date, and performing optimally with ongoing maintenance and technical support.",
+      "features": [
+        "Regular security updates and patches",
+        "Performance monitoring and optimization",
+        "Content updates and changes",
+        "Backup and disaster recovery",
+        "Uptime monitoring and alerts",
+        "Bug fixes and technical support",
+        "Feature enhancements and improvements",
+        "Monthly performance reports"
+      ]
+    },
+    {
+      "title": "API Development & Integration",
+      "description": "Connect your systems and third-party services with custom API development and seamless integrations.",
+      "features": [
+        "RESTful and GraphQL API development",
+        "Third-party API integration (CRM, payment, social media)",
+        "API documentation and versioning",
+        "Authentication and security implementation",
+        "Rate limiting and caching strategies",
+        "Webhook setup and event handling",
+        "API testing and monitoring",
+        "Microservices architecture"
       ]
     }
   ],
   "whyChooseUs": {
     "title": "Why Choose Our Web Development Services",
     "reasons": [
-      "Modern technologies (Next.js, React, Node.js)",
-      "Clean, scalable, maintainable code",
-      "Fast delivery with high-quality standards",
-      "Mobile-first, responsive design",
-      "Long-term support and maintenance",
-      "SEO-optimized from the ground up"
+      "Modern tech stack: React, Next.js, Node.js, Python, and cloud technologies",
+      "Mobile-first, responsive design for all devices and screen sizes",
+      "SEO-optimized from the ground up for better search rankings",
+      "Fast loading speeds with 90+ Google PageSpeed scores",
+      "Security best practices and regular updates",
+      "Transparent pricing with detailed project scopes",
+      "Dedicated project manager and development team",
+      "Post-launch support and maintenance packages",
+      "Agile development methodology with regular updates",
+      "60% cost savings compared to US/EU development agencies"
     ]
   },
   "technologies": {
-    "title": "Technologies We Use",
+    "title": "Technologies We Work With",
     "list": [
-      "Next.js",
       "React",
-      "TypeScript",
+      "Next.js",
+      "Vue.js",
       "Node.js",
+      "Python",
+      "PHP",
+      "TypeScript",
       "Tailwind CSS",
-      "MongoDB",
       "PostgreSQL",
-      "Firebase",
+      "MongoDB",
+      "AWS",
       "Vercel",
-      "AWS"
+      "Docker",
+      "Git",
+      "Shopify",
+      "WordPress",
+      "Stripe",
+      "REST APIs",
+      "GraphQL"
     ]
   },
   "cta": {
-    "title": "Ready to Build Something Great?",
-    "description": "Let's create a fast, modern, and scalable digital experience for your business.",
+    "title": "Ready to Build Something Amazing?",
+    "description": "Let's turn your vision into reality. Schedule a free consultation to discuss your project requirements and get a detailed proposal.",
     "buttons": {
-      "primary": { "text": "Get Started", "href": "/contact" },
-      "secondary": { "text": "Contact Us", "href": "/contact" }
+      "primary": { "text": "Get Free Consultation", "href": "/contact" },
+      "secondary": { "text": "View Portfolio", "href": "/case-studies" }
     }
   }
 }

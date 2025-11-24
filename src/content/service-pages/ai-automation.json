@@ -1,29 +1,169 @@
 {
   "slug": "ai-automation",
   "hero": {
-    "headline": "Service Page",
-    "subheading": "Professional services tailored to your needs.",
+    "headline": "AI & Automation Solutions for Business Growth",
+    "subheading": "Transform your operations with intelligent automation, AI-powered tools, and custom solutions that save time, reduce costs, and scale your business.",
     "cta": {
-      "primary": { "text": "Get Started", "href": "/contact" },
-      "secondary": { "text": "Learn More", "href": "/contact" }
+      "primary": { "text": "Start Automation Project", "href": "/contact" },
+      "secondary": { "text": "See AI Solutions", "href": "/case-studies" }
     }
   },
-  "introduction": "We provide comprehensive solutions to help your business succeed.",
-  "services": [],
+  "introduction": "Harness the power of artificial intelligence and automation to streamline operations, improve decision-making, and unlock new growth opportunities. From chatbots and workflow automation to custom AI models and data analytics, we help businesses leverage cutting-edge technology to stay competitive in the digital age.",
+  "services": [
+    {
+      "title": "AI Chatbots & Virtual Assistants",
+      "description": "Deploy intelligent chatbots that handle customer inquiries 24/7, reduce support costs, and improve customer satisfaction.",
+      "features": [
+        "Custom chatbot development (website, WhatsApp, Facebook)",
+        "Natural Language Processing (NLP) training",
+        "Multi-language support",
+        "CRM and helpdesk integration",
+        "Lead qualification and routing",
+        "Sentiment analysis and escalation",
+        "Analytics and performance tracking",
+        "Continuous learning and improvement"
+      ]
+    },
+    {
+      "title": "Business Process Automation",
+      "description": "Automate repetitive tasks and workflows to free up your team for high-value work and eliminate human error.",
+      "features": [
+        "Workflow automation and optimization",
+        "Data entry and processing automation",
+        "Document generation and management",
+        "Email automation and scheduling",
+        "Report generation and distribution",
+        "Invoice and payment processing",
+        "Inventory and order management automation",
+        "Custom automation scripts and tools"
+      ]
+    },
+    {
+      "title": "AI-Powered Data Analytics",
+      "description": "Turn data into actionable insights with AI-driven analytics, predictive modeling, and business intelligence.",
+      "features": [
+        "Predictive analytics and forecasting",
+        "Customer behavior analysis",
+        "Sales and revenue prediction",
+        "Churn prediction and prevention",
+        "Data visualization dashboards",
+        "Anomaly detection and alerting",
+        "Market trend analysis",
+        "Custom ML model development"
+      ]
+    },
+    {
+      "title": "Intelligent Document Processing",
+      "description": "Extract, process, and analyze data from documents automatically using AI-powered OCR and document understanding.",
+      "features": [
+        "Optical Character Recognition (OCR)",
+        "Invoice and receipt processing",
+        "Contract analysis and extraction",
+        "Form data extraction",
+        "Document classification",
+        "Handwriting recognition",
+        "Multi-language document processing",
+        "Integration with existing systems"
+      ]
+    },
+    {
+      "title": "Marketing Automation & Personalization",
+      "description": "Automate marketing campaigns and deliver personalized experiences at scale with AI-driven insights.",
+      "features": [
+        "Email marketing automation",
+        "Lead scoring and nurturing",
+        "Personalized content recommendations",
+        "Dynamic pricing optimization",
+        "Customer segmentation",
+        "A/B testing automation",
+        "Social media automation",
+        "Marketing attribution modeling"
+      ]
+    },
+    {
+      "title": "AI Content Generation",
+      "description": "Generate high-quality content at scale using advanced AI models for marketing, social media, and customer communication.",
+      "features": [
+        "AI-powered copywriting",
+        "Blog post and article generation",
+        "Social media content creation",
+        "Product descriptions",
+        "Email templates and sequences",
+        "SEO-optimized content",
+        "Multi-language content generation",
+        "Brand voice customization"
+      ]
+    },
+    {
+      "title": "Computer Vision & Image Recognition",
+      "description": "Implement AI-powered visual intelligence for quality control, object detection, and automated image processing.",
+      "features": [
+        "Object detection and recognition",
+        "Quality control and defect detection",
+        "Image classification and tagging",
+        "Facial recognition systems",
+        "OCR and document scanning",
+        "Video analytics and monitoring",
+        "Custom vision model training",
+        "Real-time processing capabilities"
+      ]
+    },
+    {
+      "title": "Custom AI Model Development",
+      "description": "Build tailored AI solutions for your specific business challenges with custom machine learning models.",
+      "features": [
+        "Machine learning model development",
+        "Deep learning solutions",
+        "Model training and optimization",
+        "AI system architecture design",
+        "Model deployment and scaling",
+        "API development for AI models",
+        "Ongoing model monitoring and retraining",
+        "Integration with existing systems"
+      ]
+    }
+  ],
   "whyChooseUs": {
-    "title": "Why Choose Us",
+    "title": "Why Choose Our AI & Automation Services",
     "reasons": [
-      "Expert team with proven results",
-      "Tailored solutions for your business",
-      "Transparent communication",
-      "Dedicated support"
+      "Expertise in latest AI technologies: GPT, Claude, TensorFlow, PyTorch",
+      "Custom solutions tailored to your specific business needs",
+      "Rapid deployment with measurable ROI within weeks",
+      "Scalable systems that grow with your business",
+      "Transparent pricing with no hidden costs",
+      "Ongoing support and model improvement",
+      "60% cost savings compared to US/EU AI consultancies",
+      "Proven track record: 60% average cost reduction for clients"
+    ]
+  },
+  "technologies": {
+    "title": "AI & Automation Technologies",
+    "list": [
+      "OpenAI GPT",
+      "Claude AI",
+      "TensorFlow",
+      "PyTorch",
+      "Langchain",
+      "Zapier",
+      "Make.com",
+      "Python",
+      "Selenium",
+      "Beautiful Soup",
+      "AWS AI Services",
+      "Google Cloud AI",
+      "Hugging Face",
+      "Dialogflow",
+      "Rasa",
+      "Power Automate",
+      "n8n"
     ]
   },
   "cta": {
-    "title": "Ready to Get Started?",
-    "description": "Contact us today to learn more.",
+    "title": "Ready to Automate and Scale?",
+    "description": "Discover how AI and automation can transform your business. Get a free consultation and automation roadmap.",
     "buttons": {
-      "primary": { "text": "Contact Us", "href": "/contact" }
+      "primary": { "text": "Get Free AI Consultation", "href": "/contact" },
+      "secondary": { "text": "View AI Case Studies", "href": "/case-studies" }
     }
   }
 }

@@ -33,7 +33,7 @@ export default function RootLayout({
   const organizationSchema = getOrganizationSchema();
 
   return (
-    <html lang="en" className="dark">
+    <html lang="en" suppressHydrationWarning>
       <head>
         <script
           type="application/ld+json"
@@ -42,18 +42,17 @@ export default function RootLayout({
         <script
           dangerouslySetInnerHTML={{
             __html: `
-              try {
-                const savedTheme = localStorage.getItem('theme');
-                if (savedTheme) {
-                  document.documentElement.classList.remove('light', 'dark');
+              (function() {
+                try {
+                  const savedTheme = localStorage.getItem('theme') || 'dark';
                   document.documentElement.classList.add(savedTheme);
-                } else {
+                  if (!localStorage.getItem('theme')) {
+                    localStorage.setItem('theme', 'dark');
+                  }
+                } catch (e) {
                   document.documentElement.classList.add('dark');
-                  localStorage.setItem('theme', 'dark');
                 }
-              } catch (e) {
-                document.documentElement.classList.add('dark');
-              }
+              })();
             `,
           }}
         />

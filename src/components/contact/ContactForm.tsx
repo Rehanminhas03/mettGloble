@@ -32,7 +32,7 @@ export default function ContactForm() {
     <form onSubmit={handleSubmit} className="max-w-2xl mx-auto space-y-6">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         <div>
-          <label htmlFor="name" className="block text-sm font-medium text-zinc-700 mb-2">
+          <label htmlFor="name" className="block text-sm font-medium text-zinc-300 mb-2">
             Full Name *
           </label>
           <input
@@ -42,12 +42,12 @@ export default function ContactForm() {
             required
             value={formData.name}
             onChange={handleChange}
-            className="w-full px-4 py-3 rounded-lg border border-zinc-300 focus:border-blue-500 focus:ring-2 focus:ring-blue-200 outline-none transition"
+            className="w-full px-4 py-3 rounded-lg bg-zinc-800 border border-zinc-700 text-white focus:border-purple-500 focus:ring-2 focus:ring-purple-500/20 outline-none transition"
           />
         </div>
 
         <div>
-          <label htmlFor="email" className="block text-sm font-medium text-zinc-700 mb-2">
+          <label htmlFor="email" className="block text-sm font-medium text-zinc-300 mb-2">
             Email Address *
           </label>
           <input
@@ -57,14 +57,14 @@ export default function ContactForm() {
             required
             value={formData.email}
             onChange={handleChange}
-            className="w-full px-4 py-3 rounded-lg border border-zinc-300 focus:border-blue-500 focus:ring-2 focus:ring-blue-200 outline-none transition"
+            className="w-full px-4 py-3 rounded-lg bg-zinc-800 border border-zinc-700 text-white focus:border-purple-500 focus:ring-2 focus:ring-purple-500/20 outline-none transition"
           />
         </div>
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         <div>
-          <label htmlFor="company" className="block text-sm font-medium text-zinc-700 mb-2">
+          <label htmlFor="company" className="block text-sm font-medium text-zinc-300 mb-2">
             Company Name
           </label>
           <input
@@ -73,12 +73,12 @@ export default function ContactForm() {
             name="company"
             value={formData.company}
             onChange={handleChange}
-            className="w-full px-4 py-3 rounded-lg border border-zinc-300 focus:border-blue-500 focus:ring-2 focus:ring-blue-200 outline-none transition"
+            className="w-full px-4 py-3 rounded-lg bg-zinc-800 border border-zinc-700 text-white focus:border-purple-500 focus:ring-2 focus:ring-purple-500/20 outline-none transition"
           />
         </div>
 
         <div>
-          <label htmlFor="phone" className="block text-sm font-medium text-zinc-700 mb-2">
+          <label htmlFor="phone" className="block text-sm font-medium text-zinc-300 mb-2">
             Phone Number
           </label>
           <input
@@ -87,14 +87,14 @@ export default function ContactForm() {
             name="phone"
             value={formData.phone}
             onChange={handleChange}
-            className="w-full px-4 py-3 rounded-lg border border-zinc-300 focus:border-blue-500 focus:ring-2 focus:ring-blue-200 outline-none transition"
+            className="w-full px-4 py-3 rounded-lg bg-zinc-800 border border-zinc-700 text-white focus:border-purple-500 focus:ring-2 focus:ring-purple-500/20 outline-none transition"
           />
         </div>
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         <div>
-          <label htmlFor="service" className="block text-sm font-medium text-zinc-700 mb-2">
+          <label htmlFor="service" className="block text-sm font-medium text-zinc-300 mb-2">
             Service Interested In
           </label>
           <select
@@ -102,7 +102,7 @@ export default function ContactForm() {
             name="service"
             value={formData.service}
             onChange={handleChange}
-            className="w-full px-4 py-3 rounded-lg border border-zinc-300 focus:border-blue-500 focus:ring-2 focus:ring-blue-200 outline-none transition"
+            className="w-full px-4 py-3 rounded-lg bg-zinc-800 border border-zinc-700 text-white focus:border-purple-500 focus:ring-2 focus:ring-purple-500/20 outline-none transition"
           >
             <option value="">Select a service</option>
             <option value="amazon-ecommerce">Amazon & eCommerce</option>
@@ -118,7 +118,7 @@ export default function ContactForm() {
         </div>
 
         <div>
-          <label htmlFor="budget" className="block text-sm font-medium text-zinc-700 mb-2">
+          <label htmlFor="budget" className="block text-sm font-medium text-zinc-300 mb-2">
             Budget Range
           </label>
           <select
@@ -126,7 +126,7 @@ export default function ContactForm() {
             name="budget"
             value={formData.budget}
             onChange={handleChange}
-            className="w-full px-4 py-3 rounded-lg border border-zinc-300 focus:border-blue-500 focus:ring-2 focus:ring-blue-200 outline-none transition"
+            className="w-full px-4 py-3 rounded-lg bg-zinc-800 border border-zinc-700 text-white focus:border-purple-500 focus:ring-2 focus:ring-purple-500/20 outline-none transition"
           >
             <option value="">Select budget range</option>
             <option value="<5k">Less than $5,000</option>
@@ -139,7 +139,7 @@ export default function ContactForm() {
       </div>
 
       <div>
-        <label htmlFor="message" className="block text-sm font-medium text-zinc-700 mb-2">
+        <label htmlFor="message" className="block text-sm font-medium text-zinc-300 mb-2">
           Message / Project Details *
         </label>
         <textarea
@@ -149,7 +149,7 @@ export default function ContactForm() {
           rows={6}
           value={formData.message}
           onChange={handleChange}
-          className="w-full px-4 py-3 rounded-lg border border-zinc-300 focus:border-blue-500 focus:ring-2 focus:ring-blue-200 outline-none transition resize-none"
+          className="w-full px-4 py-3 rounded-lg bg-zinc-800 border border-zinc-700 text-white focus:border-purple-500 focus:ring-2 focus:ring-purple-500/20 outline-none transition resize-none"
         />
       </div>
 

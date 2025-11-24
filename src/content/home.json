@@ -1,155 +1,144 @@
 {
   "hero": {
-    "headline": "Your Global Partner for eCommerce, Technology, and Secure Digital Solutions",
-    "subheading": "End-to-end services for Amazon & eCommerce, Web Development, Cybersecurity, AI Automation, Procurement, Supply Chain, and Business Operations—powered by innovation and delivered with excellence.",
+    "headline": "Transform Your Brand with Data-Driven Marketing & Creative Excellence",
+    "subheading": "Strategic marketing solutions that drive growth. From brand identity and digital marketing to SEO, social media, and AI-powered campaigns—we help businesses stand out, engage audiences, and convert leads into loyal customers.",
     "cta": {
       "primary": {
-        "text": "Get a Free Consultation",
+        "text": "Grow Your Brand Today",
         "href": "/contact"
       },
       "secondary": {
-        "text": "Explore Our Services",
+        "text": "View Marketing Services",
         "href": "/services"
       }
     }
   },
   "services": [
     {
-      "id": "amazon-ecommerce",
-      "title": "Amazon & eCommerce",
-      "description": "Multi-channel eCommerce management and growth",
-      "icon": "ShoppingCart",
-      "href": "/services/amazon-ecommerce"
+      "id": "brand-strategy",
+      "title": "Brand Strategy & Identity",
+      "description": "Build memorable brands with strategic positioning and creative design",
+      "icon": "Sparkles",
+      "href": "/services/branding"
     },
     {
-      "id": "web-development",
-      "title": "Web Development",
-      "description": "Modern, scalable, high-performance websites and apps",
-      "icon": "Code",
-      "href": "/services/web-development"
+      "id": "digital-marketing-seo",
+      "title": "Digital Marketing & SEO",
+      "description": "Drive organic traffic and conversions with data-driven strategies",
+      "icon": "TrendingUp",
+      "href": "/services/leadgen"
     },
     {
-      "id": "cybersecurity",
-      "title": "Cybersecurity Services",
-      "description": "Protect your business with enterprise-grade security",
-      "icon": "Shield",
-      "href": "/services/cybersecurity"
+      "id": "social-media",
+      "title": "Social Media Marketing",
+      "description": "Engage audiences and grow communities across all platforms",
+      "icon": "Users",
+      "href": "/services/branding"
     },
     {
-      "id": "procurement",
-      "title": "Procurement & Manufacturing",
-      "description": "Global sourcing from Pakistan's manufacturing hubs",
-      "icon": "Package",
-      "href": "/services/procurement"
+      "id": "content-marketing",
+      "title": "Content Marketing & Creation",
+      "description": "Compelling content that resonates and converts",
+      "icon": "Pencil",
+      "href": "/services/leadgen"
     },
     {
-      "id": "supply-chain",
-      "title": "Supply Chain & Logistics",
-      "description": "End-to-end inventory, warehouse, and shipping solutions",
-      "icon": "Truck",
-      "href": "/services/supply-chain"
-    },
-    {
-      "id": "leadgen",
-      "title": "B2B Lead Generation & Sales",
-      "description": "Data-driven pipelines and CRM management",
+      "id": "ppc-advertising",
+      "title": "PPC & Paid Advertising",
+      "description": "Maximize ROI with targeted campaigns on Google, Facebook & LinkedIn",
       "icon": "Target",
       "href": "/services/leadgen"
     },
     {
-      "id": "branding",
-      "title": "Branding & Marketing",
-      "description": "Creative design, social media, and AI-powered campaigns",
-      "icon": "Palette",
-      "href": "/services/branding"
-    },
-    {
-      "id": "ai-automation",
-      "title": "AI & Automation Solutions",
-      "description": "Intelligent workflows, chatbots, and predictive analytics",
-      "icon": "Bot",
+      "id": "marketing-automation",
+      "title": "Marketing Automation & AI",
+      "description": "Intelligent automation for email, lead nurturing, and analytics",
+      "icon": "Cpu",
       "href": "/services/ai-automation"
     },
     {
-      "id": "customer-support",
-      "title": "Customer Support",
-      "description": "24/7 multi-channel support for retail and eCommerce",
-      "icon": "Headphones",
-      "href": "/services/customer-support"
+      "id": "website-landing-pages",
+      "title": "Website & Landing Pages",
+      "description": "High-converting websites optimized for performance and UX",
+      "icon": "Code",
+      "href": "/services/web-development"
     },
     {
-      "id": "it-helpdesk",
-      "title": "IT Help Desk & Technical Support",
-      "description": "Remote troubleshooting and IT management",
-      "icon": "Server",
-      "href": "/services/it-helpdesk"
-    },
-    {
-      "id": "data-entry",
-      "title": "Data Entry & Virtual Assistants",
-      "description": "Administrative excellence and eCommerce support",
-      "icon": "FileText",
-      "href": "/services/data-entry"
+      "id": "ecommerce-marketing",
+      "title": "eCommerce Marketing",
+      "description": "Amazon, Shopify, and multi-channel eCommerce growth strategies",
+      "icon": "ShoppingCart",
+      "href": "/services/amazon-ecommerce"
     }
   ],
   "whyChooseUs": {
-    "title": "Why Choose Us",
+    "title": "Why Choose Us for Your Marketing Needs",
     "reasons": [
       {
-        "title": "Global Network",
-        "description": "Operating from Pakistan with international reach",
-        "icon": "Globe"
-      },
-      {
-        "title": "Multi-Channel Expertise",
-        "description": "Amazon, Walmart, Shopify, eBay, and beyond",
-        "icon": "Layers"
-      },
-      {
-        "title": "Data & AI Driven",
-        "description": "Advanced analytics and automation at the core",
+        "title": "Data-Driven Strategies",
+        "description": "Every campaign backed by analytics, testing, and measurable ROI tracking",
         "icon": "TrendingUp"
       },
       {
-        "title": "End-to-End Solutions",
-        "description": "From strategy to execution, we handle it all",
+        "title": "Creative Excellence",
+        "description": "Award-winning design and content that captures attention and drives engagement",
+        "icon": "star"
+      },
+      {
+        "title": "Full-Service Marketing",
+        "description": "From brand strategy to execution—SEO, PPC, social, content, and more",
         "icon": "CheckCircle"
       },
       {
-        "title": "Proven Results",
-        "description": "Trusted by retail brands, manufacturers, and tech startups",
+        "title": "AI-Powered Automation",
+        "description": "Leverage cutting-edge marketing automation and AI tools for efficiency",
+        "icon": "lightning"
+      },
+      {
+        "title": "Proven Track Record",
+        "description": "200+ successful campaigns delivering 3x average ROI for our clients",
         "icon": "Award"
+      },
+      {
+        "title": "Transparent Reporting",
+        "description": "Real-time dashboards and monthly performance reports you can understand",
+        "icon": "chart"
       }
     ]
   },
   "industries": {
     "title": "Industries We Serve",
     "list": [
-      "Retail & eCommerce",
-      "Manufacturing & Textiles",
-      "Wholesale & Distribution",
-      "Technology & SaaS",
-      "Startups & Emerging Brands"
+      "SaaS & Technology",
+      "eCommerce & Retail",
+      "Healthcare & Wellness",
+      "Professional Services",
+      "Real Estate & Finance",
+      "Education & Training",
+      "Hospitality & Travel",
+      "B2B Manufacturing",
+      "Startups & Emerging Brands",
+      "Nonprofit & Social Impact"
     ]
   },
   "caseStudies": {
-    "title": "Case Studies & Success Stories",
-    "description": "Discover how we've helped businesses scale on Amazon, streamline supply chains, build secure digital platforms, and automate operations with AI.",
+    "title": "Success Stories & Results",
+    "description": "See how we've helped brands increase organic traffic by 250%, achieve 5x ROAS on paid campaigns, and build engaged social communities that drive real business growth.",
     "cta": {
-      "text": "View All Case Studies",
+      "text": "View Our Portfolio",
       "href": "/case-studies"
     }
   },
   "finalCta": {
-    "title": "Ready to Transform Your Business?",
-    "description": "Let's build something exceptional together.",
+    "title": "Ready to Grow Your Brand?",
+    "description": "Let's create a marketing strategy that delivers measurable results. Get a free consultation and discover how we can transform your brand's digital presence.",
     "buttons": {
       "primary": {
-        "text": "Schedule a Consultation",
+        "text": "Get Free Marketing Audit",
         "href": "/contact"
       },
       "secondary": {
-        "text": "Contact Us Today",
+        "text": "Schedule Strategy Call",
         "href": "/contact"
       }
     }

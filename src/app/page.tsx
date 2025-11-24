@@ -1,9 +1,15 @@
 import { Metadata } from "next";
 import homeContent from "@/content/home.json";
-import Hero from "@/components/home/Hero";
-import ServicesGrid from "@/components/home/ServicesGrid";
+import extendedContent from "@/content/homepage-extended.json";
+import ModernHero from "@/components/home/ModernHero";
+import ModernServicesGrid from "@/components/home/ModernServicesGrid";
 import WhyChooseUs from "@/components/home/WhyChooseUs";
 import Industries from "@/components/home/Industries";
+import Process from "@/components/home/Process";
+import Testimonials from "@/components/home/Testimonials";
+import Team from "@/components/home/Team";
+import Partners from "@/components/home/Partners";
+import FAQ from "@/components/home/FAQ";
 import CTA from "@/components/home/CTA";
 import SectionHeading from "@/components/shared/SectionHeading";
 import Button from "@/components/shared/Button";
@@ -27,26 +33,42 @@ export const metadata: Metadata = generatePageMetadata({
 export default function Home() {
   return (
     <main>
-      <Hero
+      {/* Hero Section */}
+      <ModernHero
         headline={homeContent.hero.headline}
         subheading={homeContent.hero.subheading}
         cta={homeContent.hero.cta}
       />
 
-      <ServicesGrid services={homeContent.services} />
+      {/* Services Grid */}
+      <ModernServicesGrid services={homeContent.services} />
 
+      {/* Partners/Clients */}
+      <Partners partners={extendedContent.partners} />
+
+      {/* Why Choose Us */}
       <WhyChooseUs
         title={homeContent.whyChooseUs.title}
         reasons={homeContent.whyChooseUs.reasons}
       />
 
+      {/* Our Process */}
+      <Process steps={extendedContent.process} />
+
+      {/* Industries */}
       <Industries
         title={homeContent.industries.title}
         list={homeContent.industries.list}
       />
 
+      {/* Testimonials */}
+      <Testimonials testimonials={extendedContent.testimonials} />
+
+      {/* Team */}
+      <Team members={extendedContent.team} />
+
       {/* Case Studies Section */}
-      <section className="section-padding bg-white">
+      <section className="section-padding bg-zinc-900">
         <div className="container-custom">
           <SectionHeading
             title={homeContent.caseStudies.title}
@@ -61,6 +83,10 @@ export default function Home() {
         </div>
       </section>
 
+      {/* FAQ */}
+      <FAQ faqs={extendedContent.faqs} />
+
+      {/* Final CTA */}
       <CTA
         title={homeContent.finalCta.title}
         description={homeContent.finalCta.description}
